@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>programme calculateur en javascript    </title>
+    <script type="text/javascript" src="calc.js"></script>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <form>
+    <pre>
+    1er Chiffre : <input type="text" id="Num1"/><br>
+    2eme Chiffre: <input type="text" id="Num2"/><br>
+    </pre>
+    <input type="button" onClick="multiplication()" value="Multiplication"/>
+    <input type="button" onClick="division()" value="Division"/>
+    <input type="reset" value="clear">
+    </form>
+    <p>Resultat de l'operation:<br>
+    <span id="resultat"></span>
+    </p>
+   
+</body>
+
+</html>
